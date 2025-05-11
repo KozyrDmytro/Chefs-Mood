@@ -2,9 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Привет, PHP!</title>
+    <title>Chefs Mood</title>
 </head>
 <body>
-    <h1><?php echo "Добро пожаловать на мой сайт!"; ?></h1>
+    <header></header>
+    <main><h1><?php echo ""; ?></h1></main>
+    <footer></footer>
 </body>
 </html>
