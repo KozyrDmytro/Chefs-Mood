@@ -1,0 +1,7 @@
+{
+    "name": "chefs-mood/project",
+    "license": "MIT",
+    "require": {
+        "twig/twig": "^3.21"
+    }
+}

@@ -1,0 +1,15 @@
+/vendor/
+
+/logs/
+/storage/cache/
+/*.log
+
+/storage/uploads/
+
+*.env
+config/config.local.php
+
+.DS_Store
+Thumbs.db
+
+.vscode/
