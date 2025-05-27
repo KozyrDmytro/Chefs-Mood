@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Вхід</title>
+</head>
+<body>
+    <h1>Вхід</h1>
+    {% if error %}
+        <p style="color:red">{{ error }}</p>
+    {% endif %}
+    <form method="POST" action="/backend/auth/login.php">
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+        <label>Пароль:</label><br>
+        <input type="password" name="password" required><br><br>
+        <button type="submit">Увійти</button>
+    </form>
+    <p>Не маєте акаунта? <a href="?page=register">Зареєструватись</a></p>
+</body>
+</html>

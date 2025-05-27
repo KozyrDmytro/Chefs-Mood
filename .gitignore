@@ -1,15 +1,33 @@
+# Composer dependencies
 /vendor/
 
-/logs/
-/storage/cache/
-/*.log
+# Twig cache (тільки вміст)
+storage/cache/*
+!storage/cache/.gitignore
 
-/storage/uploads/
+# Завантажені файли
+storage/uploads/*
+!storage/uploads/.gitignore
 
-*.env
-config/config.local.php
+# Логи
+logs/*
+!logs/.gitignore
 
+# Конфігураційні файли
+config/*.php
+!.gitignore
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
 .DS_Store
 Thumbs.db
 
-.vscode/
+# Тимчасові файли
+*.tmp
+*.bak
+*.swp
+*~
